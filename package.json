@@ -1,0 +1,31 @@
+{
+  "name": "mall",
+  "version": "1.0.0",
+  "description": "mall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZiMingDaYou/mall.git"
+  },
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZiMingDaYou/mall/issues"
+  },
+  "homepage": "https://github.com/ZiMingDaYou/mall#readme",
+  "dependencies": {
+    "global": "^4.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
