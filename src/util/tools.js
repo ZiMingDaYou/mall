@@ -1,3 +1,10 @@
+/*
+ * @Author: 张培培
+ * @Github: https: //github.com/ZiMingDaYou
+ * @Date: 2019-01-16 18:09:08
+ * @LastEditors: 张培培
+ * @LastEditTime: 2019-01-18 15:13:11
+ */
 var Hogan = require('hogan.js');
 var conf ={
     serverHost : ''
@@ -10,7 +17,7 @@ var _tools = {
             url      : param.url    || ''   ,
             datatype : param.type   || 'json',
             data     : param .data  || ''    ,
-            success  : function(res){
+    success  : function(res){
                 //请求成功
                 if(0 === res.status){
                     typeof param.success === 'function' && param.success(res.data,res.msg);
@@ -24,7 +31,7 @@ var _tools = {
                     typeof param.error === 'function' && param.error(res.msg);
                 }
             },
-            error    : function(err){
+    error    : function(err){
                 typeof param.error === 'function' && param.error(err.statusText);
             }
         });

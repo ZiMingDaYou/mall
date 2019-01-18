@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ZiMingDaYou/mall#readme",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "global": "^4.3.2",
     "hogan": "^1.0.2"
   },

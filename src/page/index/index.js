@@ -1,6 +1,11 @@
-var _tools = require('util/tools.js');
-var html = '<div>{{data}}</div>'
-var data = {
-    data : 123
-};
-console.log(_tools.renderHtml(html,data));
+/*
+ * @Author: 张培培
+ * @Github: https: //github.com/ZiMingDaYou
+ * @Date: 2019-01-15 13:58:57
+ * @LastEditors: 张培培
+ * @LastEditTime: 2019-01-18 17:52:26
+ */
+
+require('page/common/nav/index.js');
+require('page/common/header/index.js')
+require('util/tools.js');

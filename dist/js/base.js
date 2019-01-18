@@ -315,7 +315,7 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./layout.css */ \"./src/page/common/layout.css\");\r\n\n\n//# sourceURL=webpack:///./src/page/common/index.js?");
+eval("/*\r\n * @Author: 张培培\r\n * @Github: https: //github.com/OBKoro1\r\n * @Date: 2019-01-15 20:18:09\r\n * @LastEditors: 张培培\r\n * @LastEditTime: 2019-01-17 16:26:18\r\n */\r\n\r\n__webpack_require__(/*! ./layout.css */ \"./src/page/common/layout.css\");\r\n\n\n//# sourceURL=webpack:///./src/page/common/index.js?");
 
 /***/ }),
 
@@ -337,7 +337,7 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var _tools = __webpack_require__(/*! util/tools.js */ \"./src/util/tools.js\");\r\nvar html = '<div>{{data}}</div>'\r\nvar data = {\r\n    data : 123\r\n};\r\nconsole.log(_tools.renderHtml(html,data));\n\n//# sourceURL=webpack:///./src/page/index/index.js?");
+eval("/*\r\n * @Author: 张培培\r\n * @Github: https: //github.com/OBKoro1\r\n * @Date: 2019-01-15 13:58:57\r\n * @LastEditors: 张培培\r\n * @LastEditTime: 2019-01-17 16:25:50\r\n */\r\n\r\nvar _tools = __webpack_require__(/*! util/tools.js */ \"./src/util/tools.js\");\r\nvar html = '<div>{{data}}</div>'\r\nvar data = {\r\n    data : 123\r\n};\r\nconsole.log(_tools.renderHtml(html,data));\n\n//# sourceURL=webpack:///./src/page/index/index.js?");
 
 /***/ }),
 
@@ -348,7 +348,7 @@ eval("var _tools = __webpack_require__(/*! util/tools.js */ \"./src/util/tools.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('hello login');\r\n\n\n//# sourceURL=webpack:///./src/page/login/index.js?");
+eval("/*\r\n * @Author: 张培培\r\n * @Github: https: //github.com/OBKoro1\r\n * @Date: 2019-01-15 14:20:12\r\n * @LastEditors: 张培培\r\n * @LastEditTime: 2019-01-17 16:25:39\r\n */\r\n\r\n\r\nconsole.log('hello login');\r\n\n\n//# sourceURL=webpack:///./src/page/login/index.js?");
 
 /***/ }),
 

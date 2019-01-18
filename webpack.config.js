@@ -1,3 +1,10 @@
+/*
+ * @Author: 张培培
+ * @Github: https: //github.com/ZiMingDaYou
+ * @Date: 2019-01-15 14:16:39
+ * @LastEditors: 张培培
+ * @LastEditTime: 2019-01-17 23:30:17
+ */
 const path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -46,7 +53,8 @@ var config = {
         }
     },
     resolve:{
-        alias : {
+        alias: {
+            node_modules:__dirname+'/node_modules',
             util   : __dirname + '/src/util'   ,
             image  : __dirname + '/src/image'  ,
             page   : __dirname + '/src/page'   ,

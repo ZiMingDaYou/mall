@@ -1,0 +1,26 @@
+/*通用头部导航*/
+.header .logo{
+    position: absolute;
+    display: block;
+    font-size: 36px;
+    color: #0099ff;
+    font-weight: bold;
+    left: 50px;
+    top:34px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header .search-area{
+    padding: 40px 0 30px 300px;
+}
+.header .search-area .search-input{
+    height:40px;
+    width: 500px;
+    border: #0099ff solid 2px;
+    padding-left:10px;
+    line-height: 40px;
+}
+.header .search-area .search-btn{
+    position: absolute;
+    height: 44px;
+}
