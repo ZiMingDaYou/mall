@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 .header .search-area{
-    padding: 40px 0 30px 300px;
+    padding: 40px 0 30px 350px;
 }
 .header .search-area .search-input{
     height:40px;
@@ -19,6 +19,7 @@
     border: #0099ff solid 2px;
     padding-left:10px;
     line-height: 40px;
+    outline: none;
 }
 .header .search-area .search-btn{
     position: absolute;

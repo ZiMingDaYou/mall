@@ -1,0 +1,12 @@
+.nav-simple .logo{
+    height: 50px;
+    font-size: 28px;
+    color: #0099ff;
+    font-weight: bold;
+    margin-left:80px;  
+    padding-top: 10px;
+}
+.nav-simple {
+    background-color: #fff;
+    border-bottom: #ddd solid 1px;
+}

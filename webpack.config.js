@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-15 14:16:39
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-17 23:30:17
+ * @LastEditTime: 2019-01-25 23:04:50
  */
 const path = require('path');
 var webpack = require('webpack');
@@ -25,7 +25,8 @@ var config = {
     entry: {
         'common': ['./src/page/common/index.js'],
         'index': ['./src/page/index/index.js'],
-        'login': ['./src/page/login/index.js']
+        'user-login': ['./src/page/user-login/index.js'],
+        'result': ['./src/page/result/index.js']
     },
     output: {
         filename: 'js/[name].js',  
@@ -73,14 +74,20 @@ var config = {
         },
         {
             test:/\.(gif|png|jpg|bmp|woff|svg|ttf|eot)\??.*$/,
-                use: [{
+            use: [{
                     loader: 'url-loader',
                     options: {
                         limit: 100,  // 把小于50000 byte的文件打包成Base64的格式写入JS  
                         name: 'images/[name].[ext]' // 当大于是使用file-loader将图片打包到images目录下
                     }
                 }]
-        }
+            },
+            {
+                test: /\.(string)$/,
+                use: {
+                    loader: 'html-loader',
+                }
+            }
     ]
     },
     plugins: [
@@ -88,7 +95,8 @@ var config = {
         new ExtractTextPlugin('css/[name].css'),
         //html处理模板
         new HtmlWebpackPlugin(getHtmlConfig('index')),
-        new HtmlWebpackPlugin(getHtmlConfig('login'))
+        new HtmlWebpackPlugin(getHtmlConfig('user-login')),
+        new HtmlWebpackPlugin(getHtmlConfig('result'))
     ]
      
 };

@@ -1,0 +1,28 @@
+/*
+ * @Author: 张培培
+ * @Github: https: //github.com/ZiMingDaYou
+ * @Date: 2019-01-19 15:51:26
+ * @LastEditors: 张培培
+ * @LastEditTime: 2019-01-19 16:06:41
+ */
+ /*导航主体*/
+.nav-side{
+    float: left;
+    width: 130px;
+}
+.nav-side .nav-item{
+    line-height: 30px;
+    font-size:15px;
+}
+.nav-side .nav-item .link{
+    color: #888;
+    font-weight: bold;
+}
+.nav-side .nav-item.active .link{
+    color: #0099ff;
+}
+/*右侧内容 */
+.content.with-nav{
+    float: left;
+    width: 950px;
+}

@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-18 12:46:51
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-18 15:38:17
+ * @LastEditTime: 2019-01-18 23:23:01
  */
 require('./index.css');
 var _tools = require('util/tools.js');
@@ -45,10 +45,10 @@ var nav = {
      },
     /*获得购物车的数量 */
     loadCartCount: function () {
-        _user.getCartCount(function (res) {
+        _cart.getCartCount(function (res) {
             $('.nav .cart-count').text(res || 0);
         }, function (errMsg) {
-            $('.nav .cart-count').text(res || 0);
+            $('.nav .cart-count').text(0);
         });
     }
 };

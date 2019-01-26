@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-15 14:47:58
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-18 17:51:01
+ * @LastEditTime: 2019-01-19 15:45:31
  -->
 
 <!DOCTYPE html>
@@ -15,7 +15,10 @@
 <body>
     <%=require('html-loader!./layout/nav.html') %>
     <%=require('html-loader!./layout/header.html') %>
-
+    <div class="page-wrap w">
+    <%=require('html-loader!./layout/nav-side.html') %>
+        <div class="content with-nav">test</div>
+    </div>
     <%=require('html-loader!./layout/footer.html') %>  
 </body>
 </html>      

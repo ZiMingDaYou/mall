@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-16 18:09:08
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-18 15:13:11
+ * @LastEditTime: 2019-01-18 20:41:24
  */
 var Hogan = require('hogan.js');
 var conf ={
@@ -61,12 +61,12 @@ var _tools = {
         return result; 
     },
     //成功提示
-    successTips : function(msg){
-        alert(msg||'操作成功');
+    successTips : function(res){
+        alert(res||'操作成功');
     },
     //错误提示
-    errorTips: function (msg) {
-        alert(msg || '操作失败');
+    errorTips: function (errMsg) {
+        alert(errMsg || '操作失败');
     },
     validate : function(value,type){
         var value = $.trim(value);
