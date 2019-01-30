@@ -1,0 +1,73 @@
+.user-wrap{
+    background: #0099ff;
+    height: 500px;
+    padding: 40px 0;
+    margin-bottom: 5%;
+}
+.user-con{
+    width: 470px;
+    height: 300px;
+    background: #fff;
+    margin: 100px 55% 110px;
+    position: relative;
+}
+.user-con .user-title{
+    text-align: center;
+    font-size: 26px;
+    color: #666;
+    border-bottom: #aeaeae solid 1px;
+    line-height: 35px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.user-con .user-login{
+    padding: 20px;
+}
+/* 错误提示 */
+.user-con .user-login .err-item{
+    font-size: 14px;
+    position: relative;
+    border: red;
+    color: red;
+    background: #fa9e9e;
+    margin-bottom:10px; 
+    padding: 4px 0 4px 40px;
+    display: none;
+}
+.user-con .user-login .err-icon{
+    position: absolute;
+    left: 20px;
+    top:50%;
+    margin-top: -9px;
+}
+/* 登录框 */
+.user-con .user-login .user-item{
+    line-height: 40px;
+    margin-top: 10px;
+}
+.user-con .user-login .user-item .fa{
+    position: relative;
+    top: 6px;
+    font-size: 28px;
+    margin-right:10px; 
+    /* border: #0099ff 1px solid; */
+    padding: 4px 6px;
+    color:#0099ff;
+}
+.user-con .user-login .user-item .input{
+    position: absolute;
+    /* padding: 2px 4px; */
+    width: 360px;
+    line-height: 35px;
+}
+.user-con .btn{
+    margin: 15px 0 0 0;
+    
+    width: 375px;
+    text-align: center;
+}
+.user-con .link{
+    float: right;
+    margin-right: 40px;
+    font-size: 12px;
+}

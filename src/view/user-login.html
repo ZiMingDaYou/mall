@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-17 13:40:33
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-25 23:18:14
+ * @LastEditTime: 2019-01-27 22:58:56
  -->
 
 <!DOCTYPE html>
@@ -11,13 +11,40 @@
 
 <head>
     <%=require('html-loader!./layout/head-common.html') %>
-    <title>result</title>
+    <title>user-login</title>
 </head>
 
 <body>
 
     <%=require('html-loader!./layout/nav-simple.html') %>
-    <div class="page-wrap"></div>
+    <div class="user-wrap">
+        
+            <div class="user-con">
+                <div class="user-title">用户登录</div>
+                <div class="user-login">
+                    <div class="err-item">
+                        <i class="fa fa-minus-circle err-icon"></i>
+                        <p class="errmsg">Error</p>
+                    </div>
+                    <div class="user-item">
+                        <label class="user-label">
+                            <i class="fa fa-user"></i>
+                        </label>
+                        <input type="text" class="username input" id="username" placeholder="请输入用户名" autocomplete="off">
+                    </div>
+                    <div class="user-item">
+                        <label class="user-label">
+                            <i class="fa fa-lock"></i>
+                        </label>
+                        <input type="password" class="password input" id="password" placeholder="请输入密码" autocomplete="off"/>
+                    </div>
+                    <a class="btn">登录</a>
+                </div>
+                <a href="./register.html"       class="link" target="_blank">免费注册</a>
+                <a href="user-pass-reset.html " class="link" target="_blank">忘记密码</a>
+            </div> 
+        
+    </div>
     <%=require('html-loader!./layout/footer.html') %>
 </body>
 

@@ -6,7 +6,7 @@
  * @LastEditTime: 2019-01-25 23:27:31
  */
 require('./index.css');
-
+require('page/common/nav-simple/index.js');
 var _tools = require('util/tools.js');
 $(function () {
     var type = _tools.getURLParam('type') || 'default',
