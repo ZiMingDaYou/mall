@@ -15,13 +15,13 @@ CMD ["start"]
 
 #思前想后，不要把问题复杂化了，切换网络吧,docker run的--net命令
 
-#docker run -d --net=host  --privileged=true -v /app:/app -p 5000:5000 bde01d9ed6eb dotnet /app/WebApplication1.dll
+#!docker run -d --net=host  --privileged=true -v /app:/app -p 5000:5000 bde01d9ed6eb dotnet /app/WebApplication1.dll
 
 #这样容器启动后，访问测试：
 
 #curl http://localhost:5000 解决
 
-#$ sudo docker exec -it 775c7c9ee1e1 /bin/bash  进入容器
+#! $ sudo docker exec -it 775c7c9ee1e1 /bin/bash  进入容器
 
 
 # apt-get update
