@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-16 18:09:08
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-18 20:41:24
+ * @LastEditTime: 2019-02-13 00:12:23
  */
 var Hogan = require('hogan.js');
 var conf ={
@@ -71,7 +71,7 @@ var _tools = {
     validate : function(value,type){
         var value = $.trim(value);
         //是否为空验证
-        if('requre' === type){
+        if('require' === type){
             //requre必须有值
             return !!value;//强转布尔型
         }

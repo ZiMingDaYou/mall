@@ -3,7 +3,7 @@
  * @Github: https: //github.com/ZiMingDaYou
  * @Date: 2019-01-17 13:40:33
  * @LastEditors: 张培培
- * @LastEditTime: 2019-01-31 00:10:04
+ * @LastEditTime: 2019-02-12 21:41:31
  -->
 
 <!DOCTYPE html>
@@ -25,10 +25,13 @@
                         <i class="fa fa-minus-circle err-icon"></i>
                         <p class="errmsg">Error</p>
                     </div>
-                    <div class="user-item">
+                    
+                    <div class="user-item user-content">
                         <label class="user-label">
                             <i class="fa fa-user"></i>
-                        </label>input type="text" class="username input" id="username" placeholder="请输入用户名" autocomplete="off">
+                        <label><input type="text" class="username input" id="username" placeholder="请输入用户名" autocomplete="off">
+                    </label>
+                        
                     </div>
                     <div class="user-item">
                         <label class="user-label">
@@ -36,7 +39,8 @@
                         </label>
                         <input type="password" class="password input" id="password" placeholder="请输入密码" autocomplete="off"/>
                     </div>
-                    <a class="btn">登录</a>
+                
+                    <a class="btn user-content" id="submit">登录</a>
                 </div>
                 <a href="./register.html"       class="link" target="_blank">免费注册</a>
                 <a href="user-pass-reset.html " class="link" target="_blank">忘记密码</a>

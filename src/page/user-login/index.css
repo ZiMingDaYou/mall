@@ -1,12 +1,12 @@
 .user-wrap{
-    background: #0099ff;
+    background: url(../../image/02.jpg) no-repeat left -800px;
     height: 500px;
     padding: 40px 0;
     margin-bottom: 5%;
 }
 .user-con{
     width: 470px;
-    height: 300px;
+    height: 310px;
     background: rgb(255, 255, 255);
     margin: 100px 55% 110px;
     position: relative;
